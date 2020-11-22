@@ -1,0 +1,111 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+div.scrollmenu {
+    background-color: rgb(2, 2, 2);
+    overflow: auto;
+    white-space: nowrap;
+    position: sticky;
+    padding: 0px;
+    margin: 0px;
+    width: 1340px;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+  .headimg
+  {
+      padding: 0px;
+      margin: 0px;
+      
+  }
+
+  .artical
+  {
+      padding: 64px 16px;
+      align-items: center;
+      
+      width: 800px;
+      position: relative;
+      left: 20%;
+  }
+
+  .artical h2{
+      text-align: center;
+      font-weight: bold;
+      font-size: 30px;
+  }
+
+  .artical p 
+  {
+    text-align: justify!important;
+  }
+
+  .card
+  {
+      margin-top: 5px;
+      padding: 0px;
+
+  }
+
+  .carditem
+  {
+      position: relative;
+      left: 25%;
+      display: inline-flex;
+      text-align: center;
+      color: rgb(10, 6, 6);
+      font-size: 30px;
+     
+  }
+
+  .card img{
+      padding: 0px 20px;
+      border-radius: 50%;
+  }
+
+  .contact
+  {
+      text-align: center;
+      display: inline-flex;
+      position: relative;
+      left: 30%;
+      background-color: rgb(151, 151, 151);
+      margin: 10px;
+  }
+
+  .us h2
+  {
+    text-align: center;
+
+  }
+
+ .footer
+ {
+     background-color: black;
+     width: 1340px;
+     height: 300px;
+     margin-top: 20px ;
+
+ }
+
+ .footer p 
+ {
+     color: white;
+     position: relative;
+     top: 80%;
+     left: 70%;
+ }
